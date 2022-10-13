@@ -46,13 +46,13 @@ public class LoginPage {
     By by_confirmPasswordField = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText");
 
     public void clickCreateAccountButton() {
-        new WebDriverWait(AppDriver.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(by_createAccountButton));
+        new WebDriverWait(AppDriver.getDriver(), Duration.ofSeconds(30)).until(ExpectedConditions.presenceOfElementLocated(by_createAccountButton));
         createAccountButton.click();
     }
 
     public void enterValidEmailAddress() {
         new WebDriverWait(AppDriver.getDriver(), Duration.ofSeconds(30)).until(ExpectedConditions.presenceOfElementLocated(by_pageHeader));
-        emailAddress.sendKeys("appiumDemoTest015@mailinator.com");
+        emailAddress.sendKeys("appiumDemoTest016@mailinator.com");
     }
 
     public void clickContinueButton() {
