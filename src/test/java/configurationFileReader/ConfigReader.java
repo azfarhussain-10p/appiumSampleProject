@@ -64,4 +64,10 @@ public class ConfigReader {
         if (appiumServerEndpointURL != null) return appiumServerEndpointURL;
         else throw new RuntimeException("appiumServerEndpointURL not specified in the Configuration.properties file.");
     }
+
+    public String getExcelFilePath() {
+        String excelFilePath = properties.getProperty("excelFilepath");
+        if(excelFilePath != null) return excelFilePath;
+        else throw new RuntimeException("Excel File Path not specified in the Configuration.properties file.");
+    }
 }
