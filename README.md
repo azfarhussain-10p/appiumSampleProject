@@ -6,7 +6,7 @@
 * Integration with Test Project
 * Generate Initial Test Execution Report
 * Working with Different Allure Annotations
-* Push Lecture04 code
+* Push Lecture05 code
 * Assigning Task
 
 ### Assignment 05:
