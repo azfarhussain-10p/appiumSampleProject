@@ -83,3 +83,7 @@ lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
+
+target/*.xml
+target/*.lst
+allure-results
